@@ -4,6 +4,7 @@
 #include "GameFramework/PlayerStart.h"
 
 ATestGameModeBase::ATestGameModeBase()
+	: m_spawnIndex(0)
 {
 	static ConstructorHelpers::FClassFinder<APawn> playerPawnClass(TEXT("/Game/Blueprints/Player/BP_TestPlayer"));
 	if (playerPawnClass.Class != NULL)
