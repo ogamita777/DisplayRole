@@ -1,0 +1,11 @@
+"C:\Program Files\Epic Games\UE_5.5\Engine\Build\BatchFiles\RunUAT.bat" ^ BuildCookRun ^
+-project="D:/work/DisplayRole/DisplayRole.uproject" ^
+-noP4 ^
+-platform=Win64 ^
+-clientconfig=Development ^
+-cook ^
+-allmap ^
+-build ^
+-stage ^
+-pak ^
+-partialgc
