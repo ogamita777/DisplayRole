@@ -15,7 +15,7 @@ void ATestPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	DisplayDebug();
+	DebugDisplay();
 }
 
 void ATestPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -65,7 +65,7 @@ void ATestPlayer::MoveRight(float value)
 	}
 }
 
-void ATestPlayer::DisplayDebug()
+void ATestPlayer::DebugDisplay()
 {
 	FString debugString = TEXT("");
 

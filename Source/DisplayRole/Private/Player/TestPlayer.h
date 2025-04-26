@@ -23,5 +23,5 @@ private:
 	void MoveForward(float value);
 	void MoveRight(float value);
 
-	void DisplayDebug();
+	void DebugDisplay();
 };
